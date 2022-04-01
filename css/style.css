@@ -6,23 +6,87 @@ body {
     /* font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif; */
     
+/* логотип */
      .logo-web {
         font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
         color: #2196F3;
      }
 
+     .logo-studio {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        color: black;
+         }
+/* header nav */
      .nav-list {
-       color: #212121; 
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #212121; 
      }
      .nav-list:hover {
         color: #2196F3
      }
 
-     .logo-studio {
-        font-family: 'Raleway';
-        color: black;
+    
+     .big-title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        color: #FFFFFF;
      }
 
-     .big-title {
-         color: aquamarine;
+     .order {
+         cursor: pointer;
      }
+ 
+     .benefits {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+     }
+
+     .benefits-text {
+     font-weight: 400;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 24px;    
+     letter-spacing: 0.03em;     
+     color: #757575;
+    }
+
+    .section-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+
+    .team-names {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+
+    .team-position {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #757575
+    }
