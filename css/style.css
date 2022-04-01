@@ -1,19 +1,28 @@
 body {
-    font-family: "Roboto", sans-serif;
-    color: #212121; 
+    font-family: 'Roboto','Arial', sans-serif;
+    color: #212121;
+    background-color: #E5E5E5; 
     }
     /* font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif; */
     
-     .logo-web {font-family: Raleway;
+     .logo-web {
         font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 31px;
+        color: #2196F3;
+     }
+
+     .nav-list {
+       color: #212121; 
+     }
+     .nav-list:hover {
         color: #2196F3
      }
 
-     nav-list:hover {
-       color: #2196F3; 
+     .logo-studio {
+        font-family: 'Raleway';
+        color: black;
+     }
+
+     .big-title {
+         color: aquamarine;
      }
